@@ -26,7 +26,7 @@ def calculate_grade(total_marks, grade_boundaries):
 
 # UI App
 st.title("📊 Grade Calculator App")
-st.caption("Project by Affan Zulfiqar & Abdul Rafay Khalid")
+st.caption("Project by Affan Zulfiqar")
 
 uploaded_file = st.file_uploader("Upload an Excel file (.xlsx) with columns 'Name' and 'Total Marks (100)'", type="xlsx")
 
